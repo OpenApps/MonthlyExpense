@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Magic 8-Ball</string>
+    <string name="shake_me_caption">Shake Me</string>
+    <string name="press_menu_shake_caption">Press Menu\n- Shake</string>
+    <string name="menu_shake_caption">Shake</string>
+    <string name="menu_preferences_caption">Preferences</string>
+    
+    <string name="preferences_section_title">Magic 8-ball Preferences</string>
+    
+    <string name="shake_count_id">shakeCount</string>
+    <string name="shake_count_title">Shake count</string>
+    <string name="shake_count_summary">The number of shakes to get the answer</string>
+    <string name="shake_count_dialogTitle">Set shake count value</string>
+    
+    <string name="threshold_id">threshold</string>
+    <string name="threshold_title">Threshold</string>
+    <string name="threshold_summary">The threshold value for shaking</string>
+    <string name="threshold_dialogTitle">Choosing value between 0.1 and 4.0</string>
+    
+    <string name="vibrate_time_id">vibrateTime</string>
+    <string name="vibrate_time_title">Vibrate time</string>
+    <string name="vibrate_time_summary">The option sets the vibration time (ms) before getting the answer</string>
+    <string name="vibrate_time_dialogTitle">Set vibration time in milliseconds</string>
+    
+	<string-array name="responses">
+    	<item>As I see\nit, yes</item>
+		<item>It is\ncertain</item>
+		<item>It is\ndecidedly\nso</item>
+		<item>Most\nlikely</item>
+		<item>Outlook\ngood</item>
+		<item>Signs point\nto yes</item>
+		<item>Without\na doubt</item>
+		<item>Yes</item>
+		<item>Yes -\ndefinitely</item>
+		<item>You may\nrely on it</item>
+		
+		<item>Reply hazy,\ntry again</item>
+		<item>Ask again\nlater</item>
+		<item>Better\nnot tell\nyou now\n</item>
+		<item>Cannot\npredict\nnow</item>
+		<item>Concentrate\nand ask\nagain</item>
+		
+		<item>Don\'t count\non it</item>
+		<item>My reply\nis no</item>
+		<item>My sources\nsay no</item>
+		<item>Outlook\nnot so\ngood</item>
+		<item>Very\ndoubtful</item>
+    </string-array>
+
+</resources>

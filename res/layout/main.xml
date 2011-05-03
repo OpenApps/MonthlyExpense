@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:id="@+id/main_menu">
+	<ScrollView android:id="@+id/ScrollView01"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="fill_parent">
+			<Button android:id="@+id/expenseButton" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="@string/layout_expense" />
+			<Button android:id="@+id/debitButton" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="@string/layout_debit" />
+			<Button android:id="@+id/miscButton" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="@string/layout_misc" />				
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

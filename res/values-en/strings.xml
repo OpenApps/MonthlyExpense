@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">MonthlyExpense</string>
+	<string name="prefTitle">My Preferences</string>
+	<string name="prefSummary">Set Flight Option Preferences</string>
+	<string name="num_entries_default">1</string>
+	<string name="num_entries">num_entries</string>
+	<string name="dialogTitle">Last Entries Options</string>
+	<string name="listSummary">set number of entries</string>
+	<string name="listTitle">Last Entries</string>
+	<string name="menu_prefs_title">Settings</string>
+	<string name="menu_quit_title">Quit</string>
+<!-- Layout strings -->
+	<string name="layout_send">Send</string>
+	<string name="layout_comment">Comment</string>
+	<string name="layout_expense">Expense</string>
+	<string name="layout_other">Other</string>
+	<string name="layout_fuel">Fuel</string>
+	<string name="layout_food">Food</string>
+	<string name="layout_phone_bill">Phone Bill</string>
+	<string name="layout_clothing">Clothing</string>
+	<string name="layout_gift">Gift</string>
+	<string name="layout_entertainment">Entertainment</string>
+ 	<string name="layout_neuchtenka">Neuchtenka</string>
+	<string name="layout_car">Car</string>
+	<string name="layout_big_purchase">Big Purchase</string>
+	<string name="layout_health">Health</string>	
+	<string name="layout_education">Education</string>
+	<string name="layout_debit">Debit</string>	
+	<string name="layout_work">Work</string>
+	<string name="layout_misc">Misc</string>
+	<string name="layout_credit_in">Credit In</string>
+	<string name="layout_credit_out">Credit Out</string>
+	<string name="layout_transfer_to_bank">Transfer To Bank</string>
+</resources>

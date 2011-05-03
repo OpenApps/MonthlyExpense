@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<ScrollView android:id="@+id/ScrollView01"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="fill_parent">
+			<Button android:id="@+id/sendButton" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="@string/layout_send" />
+			<TextView android:id="@+id/latLabel" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/layout_comment" />
+			<EditText android:id="@+id/comment" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />			
+			<TextView android:id="@+id/latLabel" android:layout_width="wrap_content"
+				android:text="In/Out" android:layout_height="25px" android:textColor="#00FF00" />
+			<TextView android:id="@+id/latLabel" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/layout_credit_in" />
+			<EditText android:inputType="number" android:id="@+id/credit_in" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+			<TextView android:id="@+id/latLabel" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/layout_credit_out" />
+			<EditText android:inputType="number" android:id="@+id/credit_out" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+			<TextView android:id="@+id/latLabel" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/layout_transfer_to_bank" />
+			<EditText android:inputType="number" android:id="@+id/transfer_to_bank"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+			<Button android:id="@+id/send2Button" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="@string/layout_send" />				
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

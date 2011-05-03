@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<ScrollView android:id="@+id/ScrollView01"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="fill_parent">
+			<Button android:id="@+id/sendButton" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="@string/layout_send" />
+			<TextView android:id="@+id/latLabel" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/layout_comment" />
+			<EditText android:id="@+id/comment" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+			<TextView android:id="@+id/latLabel" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/layout_expense" android:textColor="#00FF00" />
+			<TextView android:id="@+id/latLabel" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/layout_other" />
+			<EditText android:inputType="number" android:id="@+id/other" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+			<TextView android:id="@+id/latLabel" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/layout_fuel" />
+			<EditText android:inputType="number" android:id="@+id/fuel" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+			<TextView android:id="@+id/latLabel" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/layout_food" />
+			<EditText android:inputType="number" android:id="@+id/food" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+			<TextView android:id="@+id/latLabel" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/layout_phone_bill" />
+			<EditText android:inputType="number" android:id="@+id/phoneBill" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+			<TextView android:id="@+id/latLabel" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/layout_clothing" />
+			<EditText android:inputType="number" android:id="@+id/clothing" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+			<TextView android:id="@+id/latLabel" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/layout_gift" />
+			<EditText android:inputType="number" android:id="@+id/gift" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+			<TextView android:id="@+id/latLabel" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/layout_entertainment" />
+			<EditText android:inputType="number" android:id="@+id/entertaiment"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+			<TextView android:id="@+id/latLabel" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/layout_neuchtenka" />
+			<EditText android:inputType="number" android:id="@+id/neuchtenka" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+			<TextView android:id="@+id/latLabel" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/layout_car" />
+			<EditText android:inputType="number" android:id="@+id/car" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+			<TextView android:id="@+id/latLabel" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/layout_big_purchase" />
+			<EditText android:inputType="number" android:id="@+id/purchase" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+			<TextView android:id="@+id/latLabel" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/layout_health" />
+			<EditText android:inputType="number" android:id="@+id/health" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+			<TextView android:id="@+id/latLabel" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/layout_education" />
+			<EditText android:inputType="number" android:id="@+id/education" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+			<Button android:id="@+id/send2Button" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="@string/layout_send" />
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   	<string name="app_name">MonthlyExpense</string>
+	<string name="prefTitle">Мои настройки</string>
+	<string name="prefSummary">Set Flight Option Preferences</string>
+	<string name="num_entries_default">1</string>
+	<string name="num_entries">num_entries</string>
+	<string name="dialogTitle">Опция последние настройки</string>
+	<string name="listSummary">Кол-во записей</string>
+	<string name="listTitle">Последние записи</string>
+	<string name="menu_prefs_title">Настройки</string>
+	<string name="menu_quit_title">Выход</string>
+<!-- Layout strings -->
+	<string name="layout_send">Отправить</string>
+	<string name="layout_comment">Комменты</string>
+	<string name="layout_expense">Затраты</string>
+	<string name="layout_other">Другое</string>
+	<string name="layout_fuel">Бенза</string>
+	<string name="layout_food">Еда</string>
+	<string name="layout_phone_bill">Телефон</string>
+	<string name="layout_clothing">Одежда</string>
+	<string name="layout_gift">Подарок</string>
+	<string name="layout_entertainment">Развлечения</string>
+ 	<string name="layout_neuchtenka">Неучтенка</string>
+	<string name="layout_car">Машина</string>
+	<string name="layout_big_purchase">Большая покупка</string>
+	<string name="layout_health">Здоровье</string>	
+	<string name="layout_education">Обучение</string>
+	<string name="layout_debit">Дебик</string>	
+	<string name="layout_work">Работа</string>
+	<string name="layout_misc">Другое</string>
+	<string name="layout_credit_in">Долг верн</string>
+	<string name="layout_credit_out">Долг дал</string>
+	<string name="layout_transfer_to_bank">Вывод в банк</string>	
+</resources>

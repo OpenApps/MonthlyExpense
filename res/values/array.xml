@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- This file is /res/values/arrays.xml -->
+<resources>
+	<string-array name="num_entries">
+		<item>5</item>
+		<item>10</item>
+		<item>15</item>
+	</string-array>
+	<string-array name="num_entries_values">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+</resources>
