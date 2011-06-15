@@ -26,7 +26,7 @@
 	<string name="layout_big_purchase">Большая покупка</string>
 	<string name="layout_health">Здоровье</string>	
 	<string name="layout_education">Обучение</string>
-	<string name="layout_debit">Дебик</string>	
+	<string name="layout_debit">Дебит</string>	
 	<string name="layout_work">Работа</string>
 	<string name="layout_misc">Другое</string>
 	<string name="layout_credit_in">Долг верн</string>
