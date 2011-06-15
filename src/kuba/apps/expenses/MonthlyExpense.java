@@ -90,8 +90,6 @@ public class MonthlyExpense extends Activity implements OnTouchListener {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		
-		// MonthlyExpense.this.deleteDatabase("test");
-
 		mainMenu();
 
 	}
