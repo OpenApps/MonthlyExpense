@@ -30,7 +30,7 @@ public class ExpensePreferenceActivity extends PreferenceActivity {
 	public boolean onOptionsItemSelected(MenuItem item) {
 		super.onOptionsItemSelected(item);
 		Intent intent = new Intent()
-		.setClass(this, kuba.apps.expenses.MonthlyExpense.class);
+		.setClass(this, MonthlyExpense.class);
 		this.startActivityForResult(intent, 0);
 		return true;
 	}
